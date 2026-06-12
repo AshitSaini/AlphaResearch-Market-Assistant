@@ -1,0 +1,146 @@
+[
+  {
+    "title": "SEBI Master Circular for Stock Brokers",
+    "exchange": "SEBI",
+    "date": "2024-05-22",
+    "circular_no": "Master Circular",
+    "section": "Stock Brokers",
+    "source_url": "https://www.sebi.gov.in/legal/master-circulars/may-2024/master-circular-for-stock-brokers_83521.html",
+    "category": "stock_broker_compliance"
+  },
+  {
+    "title": "India Code Digital Personal Data Protection Act 2023",
+    "exchange": "MeitY",
+    "date": "2023-08-11",
+    "circular_no": "Act No. 22 of 2023",
+    "section": "Digital Personal Data Protection",
+    "source_url": "https://www.indiacode.nic.in/indiacode/handle/123456789/22037?view_type=browse",
+    "category": "data_protection"
+  },
+  {
+    "title": "India Code Digital Personal Data Protection Act 2023 PDF",
+    "exchange": "MeitY",
+    "date": "2025-11-19",
+    "circular_no": "Act No. 22 of 2023",
+    "section": "Digital Personal Data Protection",
+    "source_url": "https://www.indiacode.nic.in/bitstream/123456789/22037/1/a2023-22.pdf",
+    "category": "data_protection"
+  },
+  {
+    "title": "MeitY Digital Personal Data Protection Rules 2025",
+    "exchange": "MeitY",
+    "date": "2025-11-14",
+    "circular_no": "DPDP Rules 2025",
+    "section": "Digital Personal Data Protection Rules",
+    "source_url": "https://www.meity.gov.in/documents/act-and-policies/digital-personal-data-protection-rules-2025-gDOxUjMtQWa?pageTitle=Digital-Personal-Data-Protection-Rules-2025686cadad39.pdf",
+    "category": "data_protection"
+  },
+  {
+    "title": "MeitY Explanatory Note to Digital Personal Data Protection Rules 2025",
+    "exchange": "MeitY",
+    "date": "2025-01-03",
+    "circular_no": "Explanatory Note",
+    "section": "DPDP Rules 2025",
+    "source_url": "https://www.meity.gov.in/writereaddata/files/Explanatory-Note-DPDP-Rules-2025.pdf",
+    "category": "data_protection"
+  },
+  {
+    "title": "SEBI Master Circular for Stock Exchanges and Clearing Corporations",
+    "exchange": "SEBI",
+    "date": "2024-12-30",
+    "circular_no": "SEBI/HO/MRD-PoD2/CIR/P/2024/00181",
+    "section": "Stock Exchanges and Clearing Corporations",
+    "source_url": "https://www.sebi.gov.in/sebi_data/attachdocs/jan-2025/1736760771912.pdf",
+    "category": "market_infrastructure"
+  },
+  {
+    "title": "SEBI AML/CFT Obligations of Securities Market Intermediaries",
+    "exchange": "SEBI",
+    "date": "2024-06-06",
+    "circular_no": "Master Circular",
+    "section": "AML CFT PMLA",
+    "source_url": "https://www.sebi.gov.in/legal/master-circulars/jun-2024/guidelines-on-anti-money-laundering-aml-standards-and-combating-the-financing-of-terrorism-cft-obligations-of-securities-market-intermediaries-under-the-prevention-of-money-laundering-act-2002-a-_83942.html",
+    "category": "aml_cft"
+  },
+  {
+    "title": "SEBI Internet Based Trading for Stock Brokers",
+    "exchange": "SEBI",
+    "date": "2024-05-30",
+    "circular_no": "SEBI/HO/MRD/TPD-1/P/CIR/2024/68",
+    "section": "Internet Based Trading",
+    "source_url": "https://www.sebi.gov.in/legal/circulars/may-2024/ease-of-doing-business-internet-based-trading-for-stock-brokers_83681.html",
+    "category": "trading_technology"
+  },
+  {
+    "title": "SEBI Allowing Securities Funded Through Cash Collateral as Maintenance Margin for MTF",
+    "exchange": "SEBI",
+    "date": "2024-09-11",
+    "circular_no": "SEBI/HO/MRD/MRD-PoD-2/P/CIR/2024/118",
+    "section": "Margin Trading Facility",
+    "source_url": "https://www.sebi.gov.in/legal/circulars/sep-2024/allowing-securities-funded-through-cash-collateral-as-maintenance-margin-for-margin-trading-facility-mtf-_86590.html",
+    "category": "margin_trading_facility"
+  },
+  {
+    "title": "SEBI Margin Trading Facility Clarification",
+    "exchange": "SEBI",
+    "date": "2017-08-01",
+    "circular_no": "CIR/MRD/DP/86/2017",
+    "section": "Margin Trading Facility",
+    "source_url": "https://www.sebi.gov.in/legal/circulars/aug-2017/margin-trading-facility-clarification_35505.html",
+    "category": "margin_trading_facility"
+  },
+  {
+    "title": "NSE Members FAQ on Margin Trading Facility",
+    "exchange": "NSE",
+    "date": "2025-01-01",
+    "circular_no": "MTF FAQ",
+    "section": "Margin Trading Facility",
+    "source_url": "https://www.nseindia.com/trade/members-faqs-margin-trading-facility",
+    "category": "margin_trading_facility"
+  },
+  {
+    "title": "SEBI Qualified Stock Brokers Framework Expansion",
+    "exchange": "SEBI",
+    "date": "2024-03-11",
+    "circular_no": "SEBI/HO/MIRSD/MIRSD-PoD-1/P/CIR/2024/14",
+    "section": "Qualified Stock Brokers",
+    "source_url": "https://www.sebi.gov.in/legal/circulars/mar-2024/measures-to-instill-trust-in-securities-market-expanding-the-framework-of-qualified-stock-brokers-qsbs-to-more-stock-brokers_82149.html",
+    "category": "stock_broker_governance"
+  },
+  {
+    "title": "NSE Circulars for Members",
+    "exchange": "NSE",
+    "date": "2024-05-23",
+    "circular_no": "Member circulars portal",
+    "section": "Member Compliance",
+    "source_url": "https://www.nseindia.com/static/regulations/member-circulars-for-members",
+    "category": "member_compliance"
+  },
+  {
+    "title": "NSE Members Compliance Handbook",
+    "exchange": "NSE",
+    "date": "2025-08-04",
+    "circular_no": "Consolidated Circulars",
+    "section": "Members Compliance",
+    "source_url": "https://www.nseindia.com/trade/members-compliance-handbook",
+    "category": "member_compliance"
+  },
+  {
+    "title": "BSE Members Notices and Master Circulars",
+    "exchange": "BSE",
+    "date": "2025-04-15",
+    "circular_no": "Members notices portal",
+    "section": "Member Oversight and Trading Operations",
+    "source_url": "https://www.bseindia.com/members.html",
+    "category": "member_compliance"
+  },
+  {
+    "title": "MCX Circulars",
+    "exchange": "MCX",
+    "date": "",
+    "circular_no": "Exchange circulars portal",
+    "section": "Commodity Derivatives",
+    "source_url": "https://www.mcxindia.com/circulars/all-circulars",
+    "category": "commodity_derivatives"
+  }
+]

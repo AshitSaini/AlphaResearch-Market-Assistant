@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AlphaResearch Assistant</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/assets/styles.css?v=20260531-list-render-fix" />
+  </head>
+  <body>
+    <section id="loginScreen" class="login-screen">
+      <div class="login-art" aria-hidden="true">
+        <div class="market-ribbon ribbon-one"></div>
+        <div class="market-ribbon ribbon-two"></div>
+        <div class="ticker-grid">
+          <span>NSE</span><span>SEBI</span><span>BSE</span><span>MCX</span>
+          <span>RISK</span><span>KYC</span><span>T+1</span><span>AML</span>
+        </div>
+      </div>
+      <div class="login-card">
+        <section class="login-brand">
+          <div class="brand-lockup">
+            <div class="brand-mark large" aria-hidden="true">
+              <span>α</span>
+              <i></i>
+            </div>
+            <p class="brand-name">AlphaResearch</p>
+          </div>
+          <h1>Assistant</h1>
+          <p>Secure access to institutional broking research, SOP intelligence, and compliance workflows.</p>
+        </section>
+
+        <form id="loginForm" class="login-form">
+          <label for="loginId">Login ID</label>
+          <input id="loginId" name="loginId" type="text" autocomplete="username" placeholder="analyst@alpharesearch" value="sainiashit31@gmail.com" required />
+
+          <label for="loginPassword">Password</label>
+          <input id="loginPassword" name="loginPassword" type="text" autocomplete="current-password" placeholder="Enter password" value="admin@123" required />
+
+          <div class="demo-credentials">
+            <span>Demo login</span>
+            <strong>sainiashit31@gmail.com</strong>
+            <strong>admin@123</strong>
+          </div>
+          <p id="loginError" class="login-error" role="alert"></p>
+          <button type="submit">Sign in</button>
+        </form>
+      </div>
+    </section>
+
+    <main id="appShell" class="app-shell is-hidden">
+      <aside class="sidebar">
+        <section class="brand">
+          <div>
+            <div class="brand-lockup sidebar-lockup">
+              <div class="brand-mark" aria-hidden="true">
+                <span>α</span>
+                <i></i>
+              </div>
+              <p class="brand-name compact">AlphaResearch</p>
+            </div>
+            <h1>Assistant</h1>
+          </div>
+        </section>
+
+        <p class="intro">Institutional-grade RAG assistant for Indian broking operations, exchange workflows, SEBI compliance, and client service SOPs.</p>
+
+        <section class="market-strip" aria-label="Market intelligence domains">
+          <span>SEBI</span>
+          <span>NSE</span>
+          <span>BSE</span>
+          <span>MCX</span>
+        </section>
+
+        <section class="status-panel" aria-label="System status">
+          <div class="status-row">
+            <span class="dot" id="healthDot"></span>
+            <span id="healthText">Checking API</span>
+          </div>
+          <dl>
+            <div>
+              <dt>Knowledge chunks</dt>
+              <dd id="documentCount">-</dd>
+            </div>
+            <div>
+              <dt>Model</dt>
+              <dd id="runtimeMode">RAG</dd>
+            </div>
+          </dl>
+        </section>
+
+        <section class="side-section">
+          <h2>Research Domains</h2>
+          <button data-question="Explain key SEBI investor protection rules for brokers.">SEBI compliance</button>
+          <button data-question="Explain NSE and BSE settlement workflows for equity trades.">Exchange operations</button>
+          <button data-question="How does MCX commodity trading work for gold and crude oil?">MCX commodities</button>
+          <button data-question="Compare futures and options trading risks.">Derivatives risk</button>
+        </section>
+      </aside>
+
+      <section class="workspace">
+        <header class="topbar">
+          <div>
+            <p class="eyebrow dark">Production Console</p>
+            <h2>Broking Knowledge Intelligence</h2>
+            <p>Ask grounded questions, inspect SOP workflows, and upload policy documents for retrieval-backed answers.</p>
+          </div>
+          <div class="top-actions">
+            <form id="uploadForm" class="upload-form">
+              <label for="fileInput">Add document</label>
+              <input id="fileInput" type="file" />
+              <button type="submit">Upload</button>
+            </form>
+            <button id="clearChatButton" class="icon-button" type="button" aria-label="Clear chat" title="Clear chat" disabled>
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M4 7h16" />
+                <path d="M9 7V5.8C9 4.8 9.8 4 10.8 4h2.4c1 0 1.8.8 1.8 1.8V7" />
+                <path d="M7 7l.8 12.2c.1.5.5.8 1 .8h6.4c.5 0 .9-.3 1-.8L17 7" />
+                <path d="M10 11v5" />
+                <path d="M14 11v5" />
+              </svg>
+            </button>
+            <button id="logoutButton" class="logout-button" type="button" aria-label="Logout" title="Logout">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M10 4H6.8C5.8 4 5 4.8 5 5.8v12.4c0 1 .8 1.8 1.8 1.8H10" />
+                <path d="M14 8l4 4-4 4" />
+                <path d="M18 12H9" />
+              </svg>
+            </button>
+          </div>
+        </header>
+
+        <section class="insight-band" aria-label="Assistant capability overview">
+          <article>
+            <span>01</span>
+            <strong>Official-source ready</strong>
+            <small>Circular metadata, exchange, date, and source URL citations.</small>
+          </article>
+          <article>
+            <span>02</span>
+            <strong>Operations workflow</strong>
+            <small>SOP cards convert procedures into analyst-grade answers.</small>
+          </article>
+          <article>
+            <span>03</span>
+            <strong>Quality feedback</strong>
+            <small>Interactive response ratings for answer refinement.</small>
+          </article>
+        </section>
+
+        <section class="sop-panel" aria-label="SOP workflows">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow dark">Standard Operating Procedures</p>
+              <h3>Choose a workflow to analyze</h3>
+            </div>
+            <span>10 SOPs</span>
+          </div>
+
+          <div class="sop-grid">
+            <button class="sop-card" data-display="Account Opening and KYC" data-question="Provide a professional workflow summary for Account Opening and KYC Verification with controls, documents, timelines, and risk checks.">
+              <span>01</span>
+              <strong>Account Opening and KYC</strong>
+              <small>Client onboarding, document verification, IPV, activation</small>
+            </button>
+            <button class="sop-card" data-display="Funding and Cash Management" data-question="Provide a professional workflow summary for Account Funding and Cash Management including deposits, reconciliation, withdrawals, controls, and risks.">
+              <span>02</span>
+              <strong>Funding and Cash Management</strong>
+              <small>Deposits, reconciliation, withdrawals, ledger controls</small>
+            </button>
+            <button class="sop-card" data-display="Trade Execution" data-question="Provide a professional workflow summary for Trade Execution and Order Management with pre-trade validation, order entry, acknowledgement, execution controls, and risks.">
+              <span>03</span>
+              <strong>Trade Execution</strong>
+              <small>Validation, order entry, acknowledgment, execution</small>
+            </button>
+            <button class="sop-card" data-display="Settlement and Delivery" data-question="Provide a professional workflow summary for Settlement and Delivery including T+1 preparation, settlement execution, failed settlement recovery, controls, and risks.">
+              <span>04</span>
+              <strong>Settlement and Delivery</strong>
+              <small>T+1 preparation, settlement execution, recovery</small>
+            </button>
+            <button class="sop-card" data-display="Margin and Positions" data-question="Provide a professional workflow summary for Margin Call and Position Management with margin calculation, calls, liquidation steps, controls, and risks.">
+              <span>05</span>
+              <strong>Margin and Positions</strong>
+              <small>Requirements, margin calls, position liquidation</small>
+            </button>
+            <button class="sop-card" data-display="Grievance Redressal" data-question="Provide a professional workflow summary for Grievance Redressal including complaint reception, investigation, escalation, turnaround expectations, controls, and risks.">
+              <span>06</span>
+              <strong>Grievance Redressal</strong>
+              <small>Complaint intake, investigation, escalation</small>
+            </button>
+            <button class="sop-card" data-display="Compliance Reporting" data-question="Provide a professional workflow summary for Daily Compliance Reporting including intraday reporting, end-of-day reporting, regulatory certifications, controls, and risks.">
+              <span>07</span>
+              <strong>Compliance Reporting</strong>
+              <small>Intraday reporting, EOD reporting, certifications</small>
+            </button>
+            <button class="sop-card" data-display="Client Reporting" data-question="Provide a professional workflow summary for Client Statement and Reporting including daily statements, monthly reports, delivery controls, and risks.">
+              <span>08</span>
+              <strong>Client Reporting</strong>
+              <small>Daily statements, monthly reports, client records</small>
+            </button>
+            <button class="sop-card" data-display="Suspension and Closure" data-question="Provide a professional workflow summary for Account Suspension and Closure including triggers, controls, closure checks, final processing, and risks.">
+              <span>09</span>
+              <strong>Suspension and Closure</strong>
+              <small>Account suspension, closure checks, final processing</small>
+            </button>
+            <button class="sop-card" data-display="Security and Data Protection" data-question="Provide a professional workflow summary for Security and Data Protection covering credentials, data security, business continuity, controls, and risks.">
+              <span>10</span>
+              <strong>Security and Data Protection</strong>
+              <small>Credentials, data protection, business continuity</small>
+            </button>
+          </div>
+        </section>
+
+        <section class="chat-panel">
+          <section id="messages" class="messages" aria-live="polite">
+            <article class="message assistant">
+              <div class="avatar">AR</div>
+              <div class="bubble">
+                <p class="lead">Welcome to AlphaResearch Assistant.</p>
+                <p>Select an SOP card or ask a direct question about SEBI rules, trading operations, settlement, commodities, derivatives, or client processes. Answers are generated from the ingested knowledge base and include retrieved source files.</p>
+              </div>
+            </article>
+          </section>
+
+          <form id="chatForm" class="composer">
+            <textarea id="questionInput" rows="2" placeholder="Ask a real operational question, e.g. 'What controls are required before account activation?'"></textarea>
+            <div class="composer-actions">
+              <label><input id="reasoningToggle" type="checkbox" /> Advanced reasoning</label>
+              <button type="submit">Ask AlphaResearch</button>
+            </div>
+          </form>
+        </section>
+      </section>
+    </main>
+    <script src="/assets/app.js?v=20260531-list-render-fix"></script>
+  </body>
+</html>
